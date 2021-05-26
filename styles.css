@@ -1,0 +1,43 @@
+.text {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #e2f026;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  width: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px rgb(153, 143, 141);
+  border-radius: 6px;
+  /* background-color: rgb(222, 213, 213); */
+  background-color: rgb(242, 233, 233);
+}
+
+.field {
+  width: 85px;
+}
+
+.value {
+  margin-right: 3px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #f51616;
+  /* color: rgb(224, 36, 36); */
+}
+
+.label {
+  display: block;
+  /* margin-right: 5px; */
+  font-size: 18px;
+  font-weight: bold;
+  color: #594b4e;
+
+  /* align-content: center; */
+  /* margin-left: 3px; */
+  /* align-items: center; */
+}
