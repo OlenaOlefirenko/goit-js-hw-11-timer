@@ -13,7 +13,7 @@ class CountdownTimer {
     this.targetDate = targetDate;
   }
 
-  Timer() {
+  timer() {
     const nowDate = Date.now();
     const time = this.targetDate - nowDate;
     const currentTime = this.getTimeComponents(time);
@@ -22,10 +22,10 @@ class CountdownTimer {
   }
 
   startNewTimer() {
-    this.Timer();
+    this.timer();
 
     this.intervalID = setInterval(() => {
-      this.Timer();
+      this.timer();
     }, 1000);
   }
 
